@@ -1,0 +1,18 @@
+[19:12:58.637][INFO]: Successfully injected RecipeFS file system
+[19:12:58.858][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[19:12:58.868][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[19:13:01.596][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[19:13:01.600][INFO]: - 'aquaculture' at version '1.19.2-2.4.17'
+[19:13:01.600][INFO]: - 'crafttweaker' at version '10.1.55'
+[19:13:21.640][INFO]: Started loading scripts for loader 'initialize'
+[19:13:23.382][INFO]: Compiling and executing scripts
+[19:13:23.533][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:13:23.980][INFO]: Execution for loader 'initialize' completed successfully
+[19:13:56.897][INFO]: Started loading scripts for loader 'tags'
+[19:13:56.916][INFO]: Compiling and executing scripts
+[19:13:56.938][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:13:56.948][INFO]: Execution for loader 'tags' completed successfully
+[19:13:57.993][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:13:58.023][INFO]: Compiling and executing scripts
+[19:13:58.684][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:13:58.699][INFO]: Execution for loader 'crafttweaker' completed successfully

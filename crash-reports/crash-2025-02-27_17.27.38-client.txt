@@ -1,0 +1,385 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2025-02-27 17:27:38
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.client.player.LocalPlayer.m_6117_()" because "this.f_91074_" is null
+	at net.minecraft.client.Minecraft.m_91279_(Minecraft.java:1934) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1768) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1078) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.4.0.jar%23144!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraft.client.Minecraft.m_91279_(Minecraft.java:1934) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: No
+	Packs: TACZ Resources, Default, Mod Resources, ! Shiny's Entity Models Plus v13.zip, Dot Crosshair.zip, Enhanced Audio r5.zip, FreshAnimations_v1.8.zip, MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip, Realistic Rain v1.0.0.zip, Round-Trees-7.0-1.19+.zip, §6¤Binoculars+Pack¤.zip, §eExtended_Illumina_1.19x.zip, Essential Assets, Essential (forge_1.19.2).jar
+Stacktrace:
+	at net.minecraft.client.ResourceLoadStateTracker.m_168562_(ResourceLoadStateTracker.java:49) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload_backport,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinResourceReload,pl:mixin:APP:vivecraft.mixins.json:client.ResourceLoadStateTrackerMixin,pl:mixin:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2287) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:722) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,pl:mixin:APP:immediatelyfast-common.mixins.json:hud_batching.MixinMinecraftClient,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:fallingleaves.mixins.json:MinecraftClientMixin,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:notenoughanimations.mixins.json:LivingRenderStateMixin,pl:mixin:APP:globaldataandresourcepacks.mixins.json:ClientPackFinderMixin,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:notenoughcrashes.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:mixins.satin.client.json:event.MinecraftClientMixin,pl:mixin:APP:weeping_angels-common.mixins.json:MinecraftMixin,pl:mixin:APP:enhancedvisuals.mixins.json:MinecraftMixin,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient,pl:mixin:APP:spyglass_improvements.mixins.json:MinecraftMixin,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:campanion.mixins.json:client.MixinMinecraftClient,pl:mixin:APP:waveycapes.mixins.json:PlayerRenderStateMixin,pl:mixin:APP:vivecraft.mixins.json:client_vr.MinecraftVRMixin,pl:mixin:APP:vivecraft.forge.mixins.json:ForgeMinecraftVRMixin,pl:mixin:APP:freecam-common.mixins.json:MinecraftMixin,pl:mixin:APP:rrls-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInEmoteWheel,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin,pl:mixin:APP:create.mixins.json:client.WindowResizeMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23615!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.4.0.jar%23144!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%23121!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.14, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 1111596736 bytes (1060 MiB) / 3019898880 bytes (2880 MiB) up to 10737418240 bytes (10240 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz
+	Identifier: Intel64 Family 6 Model 167 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: Radeon(TM) RX 550
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x699f
+	Graphics card #0 versionInfo: DriverVersion=31.0.21910.4002
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 55749.34
+	Virtual memory used (MB): 44454.62
+	Swap memory total (MB): 23217.36
+	Swap memory used (MB): 1846.80
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx10240M
+	Loaded Shaderpack: (off)
+	Launched Version: 1.19.2
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: Radeon(TM) RX 550 GL version 3.2.0 Core Profile Context 23.19.10.04.240321, ATI Technologies Inc.
+	Window size: 1920x1080
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: tacz_pack/tacz, vanilla, mod_resources, file/! Shiny's Entity Models Plus v13.zip (incompatible), file/Dot Crosshair.zip (incompatible), file/Enhanced Audio r5.zip, file/FreshAnimations_v1.8.zip, file/MandalasGUI_Legacy+Modded_Dakmode_v4.6.zip (incompatible), file/Realistic Rain v1.0.0.zip (incompatible), file/Round-Trees-7.0-1.19+.zip, file/§6¤Binoculars+Pack¤.zip, file/§eExtended_Illumina_1.19x.zip
+	Current Language: English (US)
+	CPU: 16x 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz
+	Client Crashes Since Restart: 1
+	Integrated Server Crashes Since Restart: 0
+	
+
+-- Custom Advancements --
+Details: 
+	Mod ID: customadvancements
+	Version: 1.19.2-5.8.7
+	Main Path: C:\Users\mkeel\AppData\Roaming\ModrinthApp\profiles\branzy camping horrorv3 1.0.0\customadvancements
+	Currently active advancement: NONE
+	Currently active file: NONE
+
+All detected execution errors related to Custom Advancements:
+	There were no execution errors detected!
+
+All loaded Advancements:
+	Custom Advancement: {fileName = root.json, resourceLocation = customadvancements:root.json, parent = null, hasBackgroundImage = true, textureLocation = customadvancements:textures/screenshot.png},
+	Custom Advancement: {fileName = back_to_the_roots.json, resourceLocation = customadvancements:back_to_the_roots.json, parent = customadvancements:example.json, hasBackgroundImage = false},
+	Custom Advancement: {fileName = example.json, resourceLocation = customadvancements:example.json, parent = customadvancements:root.json, hasBackgroundImage = false}
+
+
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar essential-loader TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+		kotlinforforge@3.12.0
+		lowcodefml@null
+	Mod List: 
+		saturn-mc1.19.2-0.1.4.jar                         |Saturn                        |saturn                        |0.1.4               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDungeons-1.19.2-Forge-3.2.2.jar        |YUNG's Better Dungeons        |betterdungeons                |1.19.2-Forge-3.2.2  |DONE      |Manifest: NOSIGNATURE
+		lootintegrations_valhelsia-1.1.jar                |lootintegrations_valhelsia mod|lootintegrations_valhelsia    |1                   |DONE      |Manifest: NOSIGNATURE
+		supermartijn642configlib-1.1.8-forge-mc1.19.jar   |SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |DONE      |Manifest: NOSIGNATURE
+		itemdelete-2.0.4.jar                              |DeleteItem                    |deleteitem                    |2.0.4               |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2.jar              |Player Animator               |playeranimator                |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		Siren_Head_v1.2.7-1.19.2-Requires_Geckolib.jar    |Siren Head                    |siren_head                    |1.2.7               |DONE      |Manifest: NOSIGNATURE
+		zaynens_flint_from_gravel_mod_1.19.2.jar          |Flint From Gravel             |flintfromgravel               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		PoopMod_1.19.2.jar                                |Poop                          |poop                          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		BlanketGhost-forge-1.19.2-1.2.jar                 |BlanketGhost                  |blanketghost                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		valhelsia_furniture-forge-1.19.2-1.1.1.jar        |Valhelsia Furniture           |valhelsia_furniture           |1.19.2-1.1.1        |DONE      |Manifest: NOSIGNATURE
+		rubidium-mc1.19.2-0.6.2c.jar                      |Rubidium                      |rubidium                      |0.6.2c              |DONE      |Manifest: NOSIGNATURE
+		Blood  Guts Fix 1.19.2.jar                        |Blood & Guts                  |steves_blood_particles        |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		modernfix-forge-5.18.1+mc1.19.2.jar               |ModernFix                     |modernfix                     |5.18.1+mc1.19.2     |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.19.2-Forge-3.8.10.jar                  |YUNG's API                    |yungsapi                      |1.19.2-Forge-3.8.10 |DONE      |Manifest: NOSIGNATURE
+		chat_heads-0.13.3-forge-1.19.2.jar                |Chat Heads                    |chat_heads                    |0.13.3              |DONE      |Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar|YUNG's Better Nether Fortresse|betterfortresses              |1.19.2-Forge-1.0.6  |DONE      |Manifest: NOSIGNATURE
+		cloth-config-forge-8.3.115.jar                    |Cloth Config v8 API           |cloth_config                  |8.3.115             |DONE      |Manifest: NOSIGNATURE
+		geophilic-1.19-2.0.0c.jar                         |Geophilic                     |geophilic                     |1.19-2.0.0c         |DONE      |Manifest: NOSIGNATURE
+		GeophilicReforged-v1.2.0.jar                      |Geophilic Reforged            |geophilic_reforged            |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		TheOneWhoWatches-V1.4.3-1.19.2.jar                |The One Who Watches           |the_one_who_watches           |1.4.2               |DONE      |Manifest: NOSIGNATURE
+		FireSticks+V.1.2+[1.19.2][FORGE].jar              |Survival Firesticks           |survival_firesticks           |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		explorations-forge-1.19.2-1.6.1.jar               |Explorations+                 |explorations                  |1.19.2-1.6.1        |DONE      |Manifest: NOSIGNATURE
+		corpse-forge-1.19.2-1.0.17.jar                    |Corpse                        |corpse                        |1.19.2-1.0.17       |DONE      |Manifest: NOSIGNATURE
+		TheStairwell-forge-1.19.2-1.0.jar                 |TheStairwell                  |thestairwell                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		Hunting_Delight Forge 1.19.2 2.9.9.jar            |Hunting delight               |hunting_delight               |2.9.9               |DONE      |Manifest: NOSIGNATURE
+		Explorify v1.6.2 f10-48.jar                       |Explorify                     |explorify                     |1.6.2               |DONE      |Manifest: NOSIGNATURE
+		blur-forge-3.1.1+mc1.19.2.jar                     |Blur (Forge)                  |blur                          |3.1.1+mc1.19.2      |DONE      |Manifest: NOSIGNATURE
+		Eric-forge-1.19.2-1.3.jar                         |Erics Toy                     |erics_toy                     |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.18-forge-mc1.19.2.jar  |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.18              |DONE      |Manifest: NOSIGNATURE
+		YungsBridges-1.19.2-Forge-3.1.0.jar               |YUNG's Bridges                |yungsbridges                  |1.19.2-Forge-3.1.0  |DONE      |Manifest: NOSIGNATURE
+		Fishingreal-1.19.2-1.6.1.jar                      |Fishingreal                   |fishingreal                   |1.19.2-1.6.1        |DONE      |Manifest: NOSIGNATURE
+		TextruesRubidiumOptions-1.0.7-mc1.19.2.jar        |TexTrue's Rubidium Options    |reeses_sodium_options         |1.0.7-mc1.19.2      |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.19.2-1.6.9a.jar                        |Oculus                        |oculus                        |1.6.9a              |DONE      |Manifest: NOSIGNATURE
+		lucent-1.19.2-1.4.1.jar                           |Lucent                        |lucent                        |1.4.1               |DONE      |Manifest: NOSIGNATURE
+		YungsExtras-1.19.2-Forge-3.1.0.jar                |YUNG's Extras                 |yungsextras                   |1.19.2-Forge-3.1.0  |DONE      |Manifest: NOSIGNATURE
+		FramedBlocks-6.8.6.jar                            |FramedBlocks                  |framedblocks                  |6.8.6               |DONE      |Manifest: NOSIGNATURE
+		MushroomQuest 1.19.2 - v4.1.0.jar                 |Mushroom Quest                |mushroomquest                 |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		bettervillage-forge-1.19.2-3.2.0.jar              |Better village                |bettervillage                 |3.2.0               |DONE      |Manifest: NOSIGNATURE
+		ThirstWasTaken-1.19.2-1.3.9.jar                   |Thirst was Taken              |thirst                        |1.19.2-1.3.9        |DONE      |Manifest: NOSIGNATURE
+		antlers-1.0.0-1.19.2.jar                          |Antlers                       |antlers                       |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		biomespawnpoint-1.19.2-2.2.jar                    |Biome Spawn Point             |biomespawnpoint               |2.2                 |DONE      |Manifest: NOSIGNATURE
+		EyePods-forge-1.19.2-1.0.jar                      |Eye Pods                      |eye_pods                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		woodenbucket-1.19-1.1.0.0.jar                     |Wooden Bucket                 |woodenbucket                  |1.19-1.1.0.0        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterEndIsland-1.19.2-Forge-1.0.jar         |YUNG's Better End Island      |betterendisland               |1.19.2-Forge-1.0    |DONE      |Manifest: NOSIGNATURE
+		lootintegrations_moog-1.4.jar                     |lootintegrations_moog mod     |lootintegrations_moog         |1                   |DONE      |Manifest: NOSIGNATURE
+		FallingTree-1.19.2-3.10.1.jar                     |FallingTree                   |fallingtree                   |3.10.1              |DONE      |Manifest: 3c:8e:df:6c:df:a6:2a:9f:af:64:ea:04:9a:cf:65:92:3b:54:93:0e:96:50:b4:52:e1:13:42:18:2b:ae:40:29
+		illageandspillage-1.19.2-1.2.4.jar                |Illage And Spillage           |illageandspillage             |1.2.4               |DONE      |Manifest: NOSIGNATURE
+		FastLeafDecay-30.jar                              |FastLeafDecay                 |fastleafdecay                 |30                  |DONE      |Manifest: NOSIGNATURE
+		YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar      |YUNG's Better Mineshafts      |bettermineshafts              |1.19.2-Forge-3.2.1  |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.19-3.1.40.jar                    |GeckoLib                      |geckolib3                     |3.1.40              |DONE      |Manifest: NOSIGNATURE
+		Nightmare-1.7.0-1.19.jar                          |cave_dweller                  |cave_dweller                  |1.6.5               |DONE      |Manifest: NOSIGNATURE
+		Mimicer v4.jar                                    |mimicer                       |mimicer                       |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		god-1.1.2(1.19.2).jar                             |God                           |god                           |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		Essential (forge_1.19.2).jar                      |Essential                     |essential                     |1.3.5.8             |DONE      |Manifest: NOSIGNATURE
+		YungsBetterJungleTemples-1.19.2-Forge-1.0.1.jar   |YUNG's Better Jungle Temples  |betterjungletemples           |1.19.2-Forge-1.0.1  |DONE      |Manifest: NOSIGNATURE
+		BorderlessWindow-1.19.1-1.5.2.jar                 |Borderless Window             |borderlesswindow              |1.19.1-1.5.2        |DONE      |Manifest: NOSIGNATURE
+		SmartBrainLib-forge-1.19.2-1.9.jar                |SmartBrainLib                 |smartbrainlib                 |1.9                 |DONE      |Manifest: NOSIGNATURE
+		Kiwi-1.19.2-forge-8.3.6.jar                       |Kiwi                          |kiwi                          |8.3.6               |DONE      |Manifest: NOSIGNATURE
+		BetterAnimationsCollection-v4.0.5-1.19.2-Forge.jar|Better Animations Collection  |betteranimationscollection    |4.0.5               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		campsite_structures-1.19.2-FORGE-1.0.3.jar        |Campsite Structures           |campsite_structures           |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		tr_slenderman_0.9.01.jar                          |The Rise of Slender           |tr_slender                    |0.9.01              |DONE      |Manifest: NOSIGNATURE
+		justverticalslabs-1.19.2-4.0.0.0-forge.jar        |Just Vertical Slabs           |justverticalslabs             |4.0.0.0             |DONE      |Manifest: NOSIGNATURE
+		thirstcanteen-1.19.2-1.6.jar                      |Thirst Canteen                |thirstcanteen                 |1.19.2-1.6          |DONE      |Manifest: NOSIGNATURE
+		rechiseled-1.1.6-forge-mc1.19.2.jar               |Rechiseled                    |rechiseled                    |1.1.6               |DONE      |Manifest: NOSIGNATURE
+		cant_breathe-1.19.2-2.0.7.jar                     |CANTBREATHE                   |cant_breathe                  |2.0.7               |DONE      |Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.8.1.1034.jar                  |Just Enough Items             |jei                           |11.8.1.1034         |DONE      |Manifest: NOSIGNATURE
+		The_Graveyard_2.5.2_(FORGE)_for_1.19.2.jar        |The Graveyard                 |graveyard                     |2.5.2               |DONE      |Manifest: NOSIGNATURE
+		libraryferret-forge-1.19.2-4.0.0.jar              |Library ferret                |libraryferret                 |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		realmrpg_fallen_adventurers_1.0.3_forge_1.19.2.jar|Realm RPG: Fallen Adventurers |realmrpg_skeletons            |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		PassableFoliage-1.19.1-forge-5.2.1.jar            |Passable Foliage              |passablefoliage               |5.2.1               |DONE      |Manifest: NOSIGNATURE
+		Fallingleaves-1.19.1-1.3.1.jar                    |Falling Leaves                |fallingleaves                 |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		BurningMan-forge-1.19.2-1.0.jar                   |Burning Man                   |burning_man                   |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		StrawStatues-v4.0.13-1.19.2-Forge.jar             |Straw Statues                 |strawstatues                  |4.0.13              |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		betterpunching-1.19.2-1.1.0.jar                   |Better Punching               |betterpunching                |1.19.2-1.1.0        |DONE      |Manifest: NOSIGNATURE
+		Neruina-2.1.2-forge+1.19.2.jar                    |Neruina                       |neruina                       |2.1.2               |DONE      |Manifest: NOSIGNATURE
+		starlight-1.1.1+forge.cf5b10b.jar                 |Starlight                     |starlight                     |1.1.1+forge.a3aea74 |DONE      |Manifest: NOSIGNATURE
+		questsadditions-1.19.2-1.4.2.jar                  |Quests Additions              |questsadditions               |1.4.2               |DONE      |Manifest: NOSIGNATURE
+		fusion-1.2.4-forge-mc1.19.2.jar                   |Fusion                        |fusion                        |1.2.4               |DONE      |Manifest: NOSIGNATURE
+		memoryleakfix-forge-1.17+-1.1.5.jar               |Memory Leak Fix               |memoryleakfix                 |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		CraftTweaker-forge-1.19.2-10.1.55.jar             |CraftTweaker                  |crafttweaker                  |10.1.55             |DONE      |Manifest: NOSIGNATURE
+		SpawnBalanceUtility-1.19-41.1.11.1.jar            |SpawnBalanceUtility           |spawnbalanceutility           |41.1.11.1           |DONE      |Manifest: NOSIGNATURE
+		EyesInTheDark-forge-1.19.2-1.0.jar                |EyesInTheDark                 |eyesinthedark                 |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		tectonic-forge-1.19-2.3.5a.jar                    |Tectonic                      |tectonic                      |2.3.5a              |DONE      |Manifest: NOSIGNATURE
+		registry-1.19.2-1.3.1.jar                         |Cryptic Registry              |cmregistry                    |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.19.2-2.5.27.jar                 |Simple Voice Chat             |voicechat                     |1.19.2-2.5.27       |DONE      |Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.19.2-1.4.5.jar   |Sound Physics Remastered      |sound_physics_remastered      |1.19.2-1.4.5        |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.19.2-2.0.1.136.jar           |TerraBlender                  |terrablender                  |2.0.1.136           |DONE      |Manifest: NOSIGNATURE
+		Fireflies v5 1.19.2.jar                           |Ambiance                      |ambiance                      |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		cwb-forge-3.0.0+mc1.19.jar                        |Cubes Without Borders         |cubes_without_borders         |3.0.0+mc1.19        |DONE      |Manifest: NOSIGNATURE
+		From-The-Fog-1.19-v1.9.1-Forge-Fabric.jar         |From The Fog                  |watching                      |1.9.1               |DONE      |Manifest: NOSIGNATURE
+		kffmod-3.12.0.jar                                 |Kotlin For Forge              |kotlinforforge                |3.12.0              |DONE      |Manifest: NOSIGNATURE
+		notenoughanimations-forge-1.9.2-mc1.19.2.jar      |NotEnoughAnimations           |notenoughanimations           |1.9.2               |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.19.2-0.6.11-22.jar               |Flywheel                      |flywheel                      |0.6.11-22           |DONE      |Manifest: NOSIGNATURE
+		gravestone-forge-1.19.2-1.0.24.jar                |Gravestone Mod                |gravestone                    |1.19.2-1.0.24       |DONE      |Manifest: NOSIGNATURE
+		LocalizedChat-forge-1.19.2-5.0.2.jar              |Localized Chat                |localizedchat                 |5.0.2               |DONE      |Manifest: NOSIGNATURE
+		entityculling-forge-1.6.1-mc1.19.2.jar            |EntityCulling                 |entityculling                 |1.6.1               |DONE      |Manifest: NOSIGNATURE
+		effective_fg-1.3.4.jar                            |Effective (Forge)             |effective_fg                  |1.3.4               |DONE      |Manifest: NOSIGNATURE
+		global_packs-forge-1.19.2-1.14.5_forge.jar        |Global Packs                  |globaldataandresourcepacks    |1.14.5_forge        |DONE      |Manifest: NOSIGNATURE
+		RedSeaObject-forge-1.19.2-1.0.jar                 |Red Sea Object                |red_sea_object                |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		ImmediatelyFast-Forge-1.3.4+1.19.2.jar            |ImmediatelyFast               |immediatelyfast               |1.3.4+1.19.2        |DONE      |Manifest: NOSIGNATURE
+		unlitcampfire-forge-1.19-1.7.1.0.jar              |Unlit Campfire                |unlitcampfire                 |1.19-1.7.1.0        |DONE      |Manifest: NOSIGNATURE
+		ShyGuy-forge-1.19.2-2.1 (1).jar                   |The Shy Guy                   |shy_guy                       |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		visuality-forge-2.0.2.jar                         |Visuality: Reforged           |visuality                     |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		HumansRefuted-forge-1.19.2-1.3.jar                |Humans Refuted                |humans_refuted                |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		PuzzlesLib-v4.4.3-1.19.2-Forge.jar                |Puzzles Lib                   |puzzleslib                    |4.4.3               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Feather-To-String 1.19.2.jar                      |FeatherToString               |feathertostring               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		doorknockerforge-1.3.0.jar                        |DoorKnocker (Forge)           |doorknockerforge              |1.3.0               |DONE      |Manifest: NOSIGNATURE
+		cartoon_dweller-1.19.2-1.8.0.jar                  |cartoon_dweller               |cartoon_dweller               |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		brightnessslider-forge-1.0-1.19.jar               |Better Brightness Slider      |brightnessslider              |1.0                 |DONE      |Manifest: NOSIGNATURE
+		WithManyVoices-forge-1.19.2-1.2.jar               |With Many Voices              |with_many_voices              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		grappling_hook_mod-1.19.2-1.19.2-v13.jar          |Grappling Hook Mod            |grapplemod                    |1.19.2-v13          |DONE      |Manifest: NOSIGNATURE
+		TreeChop-1.19.2-forge-0.19.1.jar                  |HT's TreeChop                 |treechop                      |0.19.0              |DONE      |Manifest: NOSIGNATURE
+		notenoughcrashes-5.0.0+1.19.2-forge.jar           |Not Enough Crashes            |notenoughcrashes              |5.0.0+1.19.2        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar       |YUNG's Better Witch Huts      |betterwitchhuts               |1.19.2-Forge-2.1.0  |DONE      |Manifest: NOSIGNATURE
+		satin-forge-1.19.2+1.12.3.jar                     |Satin Forge                   |satin                         |1.19.2+1.12.3       |DONE      |Manifest: NOSIGNATURE
+		forge-weeping_angels-1.19.2-43.1.5-forge.jar      |Weeping Angels                |weeping_angels                |1                   |DONE      |Manifest: NOSIGNATURE
+		YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar  |YUNG's Better Ocean Monuments |betteroceanmonuments          |1.19.2-Forge-2.1.1  |DONE      |Manifest: NOSIGNATURE
+		auditory-0.0.5-1.19.2.jar                         |Auditory                      |auditory                      |0.0.5-1.19.2        |DONE      |Manifest: NOSIGNATURE
+		sophisticatedcore-1.19.2-0.6.4.730.jar            |Sophisticated Core            |sophisticatedcore             |1.19.2-0.6.4.730    |DONE      |Manifest: NOSIGNATURE
+		HardToDestroyReptile-forge-1.19.2-1.2.jar         |HardToDestroyReptile          |hardtodestroyreptile          |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		XaerosWorldMap_1.39.0_Forge_1.19.1.jar            |Xaero's World Map             |xaeroworldmap                 |1.39.0              |DONE      |Manifest: NOSIGNATURE
+		EnhancedVisuals_FORGE_v1.5.11_mc1.19.2.jar        |EnhancedVisuals               |enhancedvisuals               |1.5.11              |DONE      |Manifest: NOSIGNATURE
+		Controlling-forge-1.19.2-10.0+7.jar               |Controlling                   |controlling                   |10.0+7              |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.19.2-7.4.0.jar                          |Placebo                       |placebo                       |7.4.0               |DONE      |Manifest: NOSIGNATURE
+		citadel-2.1.4-1.19.jar                            |Citadel                       |citadel                       |2.1.4               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.21.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.21.1              |DONE      |Manifest: NOSIGNATURE
+		lootintegrations-1.19.2-4.0.jar                   |Lootintegrations mod          |lootintegrations              |1.19.2-4.0          |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.7.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.7        |DONE      |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.19.2-3.20.2.1035.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |1.19.2-3.20.2.1035  |DONE      |Manifest: NOSIGNATURE
+		TheOldAI-forge-1.19.2-1.1.jar                     |The Old AI                    |the_old_ai                    |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		LimitMobSpawn-19.3.jar                            |Limit Mob Spawn               |limitmobspawn                 |19.3                |DONE      |Manifest: NOSIGNATURE
+		fragiletorches-1.19-1.0.2.jar                     |Fragile Torches               |fragiletorches                |1.19-1.0.2          |DONE      |Manifest: 1f:47:ac:b1:61:82:96:b8:47:19:16:d2:61:81:11:60:3a:06:4b:61:31:56:7d:44:31:1e:0c:6f:22:5b:4c:ed
+		Sleepnt 1.19.2.jar                                |Sleepn't Mod                  |sleepnt_mod                   |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		lootintegrations_structory-1.2.jar                |lootintegrations_structory mod|lootintegrations_structory    |1                   |DONE      |Manifest: NOSIGNATURE
+		customadvancements-1.19.2-5.8.7.jar               |Custom Advancements           |customadvancements            |1.19.2-5.8.7        |DONE      |Manifest: NOSIGNATURE
+		cameraoverhaul-1.0-1.19.2.jar                     |Camera Overhaul               |cameraoverhaul                |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		SleepKiller-forge-1.19.2-1.7.jar                  |sleep killer                  |sleep_killer                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		FarmersDelight-1.19.2-1.2.4.jar                   |Farmer's Delight              |farmersdelight                |1.19.2-1.2.4        |DONE      |Manifest: NOSIGNATURE
+		entity_model_features_forge_1.19.2-2.0.2.jar      |Entity Model Features         |entity_model_features         |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		entity_texture_features_forge_1.19.2-6.0.1.jar    |Entity Texture Features       |entity_texture_features       |6.0.1               |DONE      |Manifest: NOSIGNATURE
+		the_midnight_lurker_3.3.5.jar                     |The Midnight Lurker           |midnightlurker                |3.3.5               |DONE      |Manifest: NOSIGNATURE
+		the_bath-1.19.2-1.7.0(1).jar                      |the_bath                      |the_bath                      |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		villagespawnpoint-1.19.2-4.2.jar                  |Village Spawn Point           |villagespawnpoint             |4.2                 |DONE      |Manifest: NOSIGNATURE
+		1.21.2-bundle-recipe-1.01.jar                     |1.21.2 Bundle Recipe Backport |mr_1212_bundlerecipe          |1.01                |DONE      |Manifest: NOSIGNATURE
+		goprone-1.19-2.0.4.jar                            |GoProne                       |goprone                       |1.19-2.0.4          |DONE      |Manifest: NOSIGNATURE
+		000.jar -1.19.2-2.0.jar                           |⛧                             |ashes1ashes                   |2.0                 |DONE      |Manifest: NOSIGNATURE
+		TheOldMan-forge-1.19.2-1.2.jar                    |The Old Man                   |theoldman                     |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		collective-1.19.2-7.64.jar                        |Collective                    |collective                    |7.64                |DONE      |Manifest: NOSIGNATURE
+		camera-forge-1.19.2-1.0.14.jar                    |Camera Mod                    |camera                        |1.19.2-1.0.14       |DONE      |Manifest: NOSIGNATURE
+		spyglass_improvements-1.5+mc1.19+forge.jar        |Spyglass Improvements         |spyglass_improvements         |1.5+mc1.19+forge    |DONE      |Manifest: NOSIGNATURE
+		YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar     |YUNG's Better Strongholds     |betterstrongholds             |1.19.2-Forge-3.2.0  |DONE      |Manifest: NOSIGNATURE
+		starterkit-1.19.2-7.0.jar                         |Starter Kit                   |starterkit                    |7.0                 |DONE      |Manifest: NOSIGNATURE
+		eatinganimation-1.19-3.2.0.jar                    |Eating Animation              |eatinganimation               |3.0.0               |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.4.0-universal.jar                 |Forge                         |forge                         |43.4.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		client-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		appleskin-forge-mc1.19-2.4.2.jar                  |AppleSkin                     |appleskin                     |2.4.2+mc1.19        |DONE      |Manifest: NOSIGNATURE
+		Aquaculture-1.19.2-2.4.17.jar                     |Aquaculture 2                 |aquaculture                   |1.19.2-2.4.17       |DONE      |Manifest: NOSIGNATURE
+		architectury-6.6.92-forge.jar                     |Architectury                  |architectury                  |6.6.92              |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1902.4.1-build.236.jar          |FTB Library                   |ftblibrary                    |1902.4.1-build.236  |DONE      |Manifest: NOSIGNATURE
+		walkietalkie-forge-1.19.2-1.3.0.jar               |Walkie-Talkie                 |walkietalkie                  |1.3.0               |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-1902.2.14-build.123.jar           |FTB Teams                     |ftbteams                      |1902.2.14-build.123 |DONE      |Manifest: NOSIGNATURE
+		cupboard-1.19.2-2.6.jar                           |Cupboard utilities            |cupboard                      |1.19.2-2.6          |DONE      |Manifest: NOSIGNATURE
+		rubidium-extra-0.4.19+mc1.19.2-build.105.jar      |Rubidium Extra                |rubidium_extra                |0.4.19+mc1.19.2-buil|DONE      |Manifest: NOSIGNATURE
+		Anomaly-1.1.5-FullShaderSupport 1.19.2.jar        |The Anomaly                   |the_anomaly                   |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		TickleMonster-forge-1.19.2-1.1.jar                |TheTickleMonster              |theticklemonste               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		HopoBetterMineshaft-[1.19-1.19.3]-1.1.6.jar       |HopoBetterMineshaft           |hopo                          |1.1.6               |DONE      |Manifest: NOSIGNATURE
+		boogeyman-forge-1.19.2-1.4.jar                    |TheBoogeyman                  |theboogeyman                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		no_f3-1.0.jar                                     |No F3                         |no_f3                         |1.0                 |DONE      |Manifest: NOSIGNATURE
+		spiderstpo-1.19.2-2.0.4.jar                       |Nyf's Spiders 2.0             |spiderstpo                    |2.0.4               |DONE      |Manifest: NOSIGNATURE
+		RemoveMouseoverHighlight-1.0.0+MC1.19.2(Forge).jar|Remove Mouseover Highlight    |rmh                           |1.0.0+MC1.19.2(Forge|DONE      |Manifest: NOSIGNATURE
+		item-filters-forge-1902.2.9-build.51.jar          |Item Filters                  |itemfilters                   |1902.2.9-build.51   |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-1902.5.9-build.399.jar           |FTB Quests                    |ftbquests                     |1902.5.9-build.399  |DONE      |Manifest: NOSIGNATURE
+		FTBQuestsOptimizer-forge-1.2.1-1.19.2.jar         |FTBQuestsOptimizer            |ftbqoptimizer                 |1.2.1-1.19.2        |DONE      |Manifest: NOSIGNATURE
+		tacz-1.19.2-1.1.4-hotfix-all.jar                  |Timeless & Classics Guns: Zero|tacz                          |1.1.4-hotfix        |DONE      |Manifest: NOSIGNATURE
+		InvMove-1.19-0.8.2-Forge.jar                      |InvMove                       |invmove                       |0.8.2               |DONE      |Manifest: NOSIGNATURE
+		vrgear-1.0.0.jar                                  |VR Gear                       |vrgear                        |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		create-1.19.2-0.5.1.i.jar                         |Create                        |create                        |0.5.1.i             |DONE      |Manifest: NOSIGNATURE
+		BuilderBear-forge-1.19.2-1.1.jar                  |Builder Bear                  |builder_bear                  |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		CuckooClock-forge-1.19.2-1.8.jar                  |The Cuckoo Clock              |the_cuckoo_clock              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		Structory_1.19.3_v1.3.1a.jar                      |Structory                     |structory                     |1.3.1a              |DONE      |Manifest: NOSIGNATURE
+		CustomPlayerModels-1.19-0.6.19a.jar               |Customizable Player Models    |cpm                           |0.6.19a             |DONE      |Manifest: NOSIGNATURE
+		zaynens_string_from_wool_mod_1.19.2.jar           |String From Wool              |string_from_wool              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		Campanion-forge-1.19.2-4.1.2+forge.jar            |Campanion                     |campanion                     |4.1.2+forge         |DONE      |Manifest: NOSIGNATURE
+		PeripheralJumper-forge-1.19.2-1.0.jar             |Peripheral Jumper             |peripheral_jumper             |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		BadMobs-1.19.2-16.1.3.jar                         |BadMobs                       |badmobs                       |16.1.3              |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar   |YUNG's Better Desert Temples  |betterdeserttemples           |1.19.2-Forge-2.2.2  |DONE      |Manifest: NOSIGNATURE
+		ExplorersCompass-1.19.2-1.3.0-forge.jar           |Explorer's Compass            |explorerscompass              |1.19.2-1.3.0-forge  |DONE      |Manifest: NOSIGNATURE
+		waveycapes-forge-1.5.1-mc1.19.2.jar               |WaveyCapes                    |waveycapes                    |1.5.1               |DONE      |Manifest: NOSIGNATURE
+		Resourcify (1.19-1.19.2-forge)-1.6.1.jar          |Resourcify                    |resourcify                    |1.6.1               |DONE      |Manifest: NOSIGNATURE
+		Terralith_1.19.3_v2.3.12.jar                      |Terralith                     |terralith                     |2.3.12              |DONE      |Manifest: NOSIGNATURE
+		Sculpture-forge-1.19.2-1.7.1.jar                  |The Sculpture                 |the_sculpture                 |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		StarvingSkeleton-forge-1.19.2-1.0.jar             |StarvingSkeleton              |starvingskeleton              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		PlagueDoctor-forge-1.19.2-1.2.jar                 |ThePlagueDoctor               |theplaguedoctor               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		goat_man-1.19.2-2.8.jar                           |goat_man                      |goat_man                      |2.8                 |DONE      |Manifest: NOSIGNATURE
+		skinlayers3d-forge-1.6.7-mc1.19.2.jar             |3d-Skin-Layers                |skinlayers3d                  |1.6.7               |DONE      |Manifest: NOSIGNATURE
+		PossessiveMask-forge-1.19.2-1.2.jar               |ThePossessiveMask             |thepossessivemask             |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		vivecraft-1.19.2-1.2.5-forge.jar                  |Vivecraft                     |vivecraft                     |1.19.2-1.2.5        |DONE      |Manifest: NOSIGNATURE
+		BOH_0.0.2.5.jar                                   |Box of Horrors                |boh                           |0.0.2               |DONE      |Manifest: NOSIGNATURE
+		okzoomer-forge-1.19-2.1.1.jar                     |OkZoomer                      |okzoomer                      |2.1.1               |DONE      |Manifest: NOSIGNATURE
+		nohostilesaroundcampfire-1.19.2-5.9.jar           |No Hostiles Around Campfire   |nohostilesaroundcampfire      |5.9                 |DONE      |Manifest: NOSIGNATURE
+		Jade-1.19.1-forge-8.9.2.jar                       |Jade                          |jade                          |8.9.2               |DONE      |Manifest: NOSIGNATURE
+		midnight-1.19.2-0.6.0-alpha.11.jar                |The Midnight                  |midnight                      |0.6.0-alpha.11      |DONE      |Manifest: NOSIGNATURE
+		vtaw_mw-forge-1.19-41.0.100-1.0.2.jar             |Variant Tools and Weaponry - E|vtaw_mw                       |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.11.28_mc1.19.2.jar          |CreativeCore                  |creativecore                  |2.11.28             |DONE      |Manifest: NOSIGNATURE
+		lootintegrations_yungs-1.3.jar                    |lootintegrations_yungs mod    |lootintegrations_yungs        |1                   |DONE      |Manifest: NOSIGNATURE
+		2032-world-height-1.0.jar                         |2032 World Height             |mr_2032_worldheight           |1.0                 |DONE      |Manifest: NOSIGNATURE
+		bucketlib-1.19.2-1.0.8.1.jar                      |BucketLib                     |bucketlib                     |1.19.2-1.0.8.1      |DONE      |Manifest: NOSIGNATURE
+		ParCool-1.19.2-3.3.1.0.jar                        |ParCool!                      |parcool                       |3.3.1.0             |DONE      |Manifest: NOSIGNATURE
+		freecam-forge-1.2.3+1.19.2.jar                    |Freecam                       |freecam                       |1.2.3               |DONE      |Manifest: NOSIGNATURE
+		mvs-4.1.4-1.19.2-forge.jar                        |Moog's Voyager Structures     |mvs                           |4.1.4-1.19.2-forge  |DONE      |Manifest: NOSIGNATURE
+		ferritecore-5.0.3-forge.jar                       |Ferrite Core                  |ferritecore                   |5.0.3               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		playertrackingcompass-1.19.2-3.2.jar              |Player Tracking Compass       |playertrackingcompass         |3.2                 |DONE      |Manifest: NOSIGNATURE
+		the_knocker-1.4.0c-forge-1.19.2.jar               |The Knocker                   |the_knocker                   |1.4.0               |DONE      |Manifest: NOSIGNATURE
+		Rrls-1.19.2-3.1.1-forge.jar                       |Remove Reloading Screen       |rrls                          |1.19.2-3.1.1-forge  |DONE      |Manifest: NOSIGNATURE
+		ArmorSoundTweak-6.0.0-forge.jar                   |Armor Sound Tweak             |armorsoundtweak               |6.0.0               |DONE      |Manifest: 42:2c:5e:4c:e2:f5:d1:07:7f:aa:29:ae:31:88:80:0c:b1:a6:87:6b:6a:2d:0f:67:57:e4:5a:4a:26:73:31:ac
+		valhelsia_core-forge-1.19.2-0.5.0.jar             |Valhelsia Core                |valhelsia_core                |1.19.2-0.5.0        |DONE      |Manifest: NOSIGNATURE
+		valhelsia_structures-forge-1.19.2-1.0.4.jar       |Valhelsia Structures          |valhelsia_structures          |1.19.2-1.0.4        |DONE      |Manifest: NOSIGNATURE
+		healingcampfire-1.19.2-5.3.jar                    |Healing Campfire              |healingcampfire               |5.3                 |DONE      |Manifest: NOSIGNATURE
+		exlinefurniture-forge-1.19.2-v2.1.25.jar          |Exline's Furniture Mod        |exlinefurniture               |2.1.25              |DONE      |Manifest: NOSIGNATURE
+		cpm-svc-compat-1.2.1.jar                          |CPM SVC Compat                |cpmsvcc                       |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		PresenceFootsteps-1.19.2-1.6.4.1-forge.jar        |Presence Footsteps (Forge)    |presencefootsteps             |1.19.2-1.6.4.1      |DONE      |Manifest: NOSIGNATURE
+	Flywheel Backend: GL33 Instanced Arrays
+	Crash Report UUID: 22bb97e4-80d0-4187-bb67-db0971a13d51
+	FML: 43.4
+	Forge: net.minecraftforge:43.4.0
+	FramedBlocks BlockEntity Warning: Not applicable
+	Kiwi Modules: 
+		kiwi:contributors
+		kiwi:data
+		passablefoliage:core
+		passablefoliage:enchantment
+	Suspected Mods: Minecraft (minecraft)
